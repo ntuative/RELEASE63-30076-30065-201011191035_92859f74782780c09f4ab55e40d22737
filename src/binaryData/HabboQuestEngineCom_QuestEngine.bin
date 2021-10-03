@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="QuestEngine" width="390" height="405" version="0.1" uid="8C32B7E3-2172-DFF4-7C47-543A59BB6677">
+  <window>
+    <frame x="0" y="0" width="405" height="405" params="32769" style="0" name="main" color="0x3e3e3e">
+      <children>
+        <border x="0" y="0" width="393" height="373" params="17" style="0" name="content">
+          <children>
+            <itemlist_vertical x="5" y="5" width="145" height="338" params="17" style="0" name="quests">
+              <variables>
+                <var key="spacing" value="5" type="int"/>
+              </variables>
+            </itemlist_vertical>
+            <scrollbar_vertical x="155" y="5" width="20" height="338" params="17" style="0" name="questsScrollbar">
+              <variables>
+                <var key="scrollable" value="quests" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+            <border x="5" y="348" width="165" height="20" params="16" style="2" name="currency.container" color="0xe0e0e0">
+              <children>
+                <bitmap x="2" y="2" width="20" height="16" params="16" style="0" name="currency.icon"/>
+                <text x="22" y="4" width="140" height="14" params="144" style="0" name="currency.amount">
+                  <variables>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </border>
+            <container x="178" y="5" width="208" height="365" params="17" style="0" name="quest.container"/>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>
